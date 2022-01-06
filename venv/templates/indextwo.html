@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <title>Acadia National Park activities</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body  style="background-color:ivory;">
+    <div class="sectiontwo">
+        <h1>Acadia National Park activities</h1>
+        <p></p>
+        <h2>{{activities}}</h2>
+    </div>
+    <center>
+        <p><image src="{{url_for('static', filename='images/hiking.jpg')}}" height=500 width=600>
+        <image src="{{url_for('static', filename='images/bar.jpg')}}" height=600 width=720>
+    <image src="{{url_for('static', filename='images/research.jpg')}}" height=400  width=600></p></center>
+    <center>
+        <p><image src="{{url_for('static', filename='images/biking.jpg')}}" height=600 width=400>
+    <image src="{{url_for('static', filename='images/rowing.jpg')}}" height=500 width=700>
+    <image src="{{url_for('static', filename='images/tour.jpg')}}" height=400 width=600></p></center>
+</body>
+</html>

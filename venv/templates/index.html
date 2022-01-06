@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <title>Acadia National Park</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="section">
+        <h1>Acadia National Park</h1>
+        <a style="color:black;" href="http://127.0.0.1:5000/activities">Activities</a>
+        <style>
+            a:link{
+                text-decoration: none;
+            }
+        </style>
+        <p></p>
+        <a style="color:black;" href="https://www.nps.gov/acad/index.htm">Website</a>
+        <style>
+            a:link{
+                text-decoration: none;
+            }
+        </style>
+        <p></p>
+        <a style="color:black;" href="http://www.nps.gov/acad/planyourvisit/directions.htm">Directions</a>
+        <style>
+            a:link{
+                text-decoration: none;
+            }
+        </style>
+        <p></p>
+        <div class="video-container">
+            <div class="color-overlay"></div>
+            <video autoplay muted loop id="videoBG" >
+                <source src="static/images/image.mp4" type="video/mp4">
+            </video>    
+        </div>
+    </div>
+</body>
+</html>
